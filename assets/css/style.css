@@ -1,0 +1,5 @@
+:root{ --bg:#f6f3ee; --ink:#22302b; --muted:#5b6a62; --accent:#2f5d50; }
+body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; line-height:1.7; color:var(--ink); background:var(--bg); }
+.wrap{ width:min(920px, calc(100% - 2rem)); margin: 2rem auto; }
+a{ color:var(--accent); text-decoration:none; }
+a:hover{ text-decoration:underline; }
